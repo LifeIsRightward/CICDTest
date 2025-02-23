@@ -34,7 +34,7 @@ services:
       SPRING_DATASOURCE_USERNAME: springboot
       SPRING_DATASOURCE_PASSWORD: p@ssw0rd
     ports:
-      - "8080:8080"
+      - "8090:8090"
     networks:
       - my_network
 
