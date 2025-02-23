@@ -24,7 +24,7 @@ services:
 
   backend:
     build: .
-    container_name: backend_container
+    container_name: kimdaehyun2019/github-actions-demo:latest  # ✅ Docker Hub에서 이미지 가져오기
     restart: always
     depends_on:
       mysql:
