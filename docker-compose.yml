@@ -30,7 +30,7 @@ services:
       mysql:
         condition: service_healthy  # ✅ MySQL이 정상적으로 실행된 후 시작
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/Book?useUnicode=true&characterEncoding=utf-8&serverTimeZone=Asia/Seoul
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3307/Book?useUnicode=true&characterEncoding=utf-8&serverTimeZone=Asia/Seoul
       SPRING_DATASOURCE_USERNAME: springboot
       SPRING_DATASOURCE_PASSWORD: p@ssw0rd
     ports:
