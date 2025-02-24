@@ -11,7 +11,7 @@ services:
       MYSQL_USER: springboot
       MYSQL_PASSWORD: p@ssw0rd
     ports:
-      - "3307:3307"
+      - "3307:3306"
     networks:
       - my_network
     volumes:
